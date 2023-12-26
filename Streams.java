@@ -13,7 +13,7 @@ public class Streams {
             do {
                 c = (char) System.in.read();
                 System.out.print(c);
-            } while (c != 'q');
+            } while (c != 'a');
 
         } finally {
             if (cin != null) {
